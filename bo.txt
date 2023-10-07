@@ -1,18 +1,18 @@
 try:
-    os.remove('PROXY_TIK_TOK_AFRIT_1.txt')
+    os.remove('.PROXY_TIK_TOK_AFRIT_1.txt')
 except:
     pass
 try:
-    os.remove('PROXY_AFRIT_TIK.txt')
+    os.remove('.PROXY_AFRIT_TIK.txt')
 except:
     pass
 DA=requests.get("https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt").text
-with open('PROXY_AFRIT_TIK.txt','a') as Prox1y:
+with open('.PROXY_AFRIT_TIK.txt','a') as Prox1y:
     Prox1y.write(DA+"\n")
 DA1=requests.get("https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt").text
-with open('PROXY_AFRIT_TIK.txt','a') as Prox1y:
+with open('.PROXY_AFRIT_TIK.txt','a') as Prox1y:
     Prox1y.write(DA1+"\n")
 DA2=requests.get("https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt").text
-with open('PROXY_AFRIT_TIK.txt','a') as Prox1y:
+with open('.PROXY_AFRIT_TIK.txt','a') as Prox1y:
     Prox1y.write(DA2+"\n")
 #6551820991:AAEiUrXhJJzqR9Yn6vPrjtfMB-VZu2qBjVg

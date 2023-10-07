@@ -15,3 +15,4 @@ with open('PROXY_AFRIT_TIK.txt','a') as Prox1y:
 DA2=requests.get("https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt").text
 with open('PROXY_AFRIT_TIK.txt','a') as Prox1y:
     Prox1y.write(DA2+"\n")
+#6551820991:AAEiUrXhJJzqR9Yn6vPrjtfMB-VZu2qBjVg
